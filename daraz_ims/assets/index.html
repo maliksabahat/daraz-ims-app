@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARAZ IMS BY TBLADLA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f7;
+        }
+        .daraz-orange {
+            background-color: #f85606;
+        }
+        .daraz-text {
+            color: #f85606;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <nav class="bg-white shadow-md p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold daraz-text italic">
+                DARAZ <span class="text-gray-800 font-normal">IMS</span>
+            </h1>
+            <p class="text-sm text-gray-500 font-semibold uppercase tracking-widest">By TBLADLA</p>
+        </div>
+    </nav>
+
+    <main class="flex-grow flex items-center justify-center px-4">
+        <div class="max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+            
+            <div class="daraz-orange md:w-1/2 p-10 text-white flex flex-col justify-center items-center text-center">
+                <i class="fas fa-boxes-stacked text-6xl mb-6"></i>
+                <h2 class="text-3xl font-extrabold mb-4 uppercase tracking-tight">Inventory Management System</h2>
+                <p class="text-orange-100 text-lg">Manage your Daraz shop stock, orders, and vendor data with ease.</p>
+            </div>
+
+            <div class="md:w-1/2 p-10 flex flex-col justify-center">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Welcome Back</h3>
+                <p class="text-gray-600 mb-8">Secure access for authorized vendors only.</p>
+                
+                <a href="login.php" class="daraz-orange text-white text-center py-4 rounded-lg font-bold text-lg hover:bg-orange-600 transition duration-300 shadow-lg transform hover:-translate-y-1">
+                    <i class="fas fa-lock mr-2"></i> LOGIN TO PORTAL
+                </a>
+
+                <div class="mt-8 pt-6 border-t border-gray-100 text-center">
+                    <p class="text-xs text-gray-400">System Version 2.0.1</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-white py-6 text-center border-t">
+        <p class="text-gray-500 text-sm">
+            &copy; 2026 <span class="daraz-text font-bold">DARAZ IMS</span> | Developed by <strong>TBLADLA</strong>
+        </p>
+    </footer>
+
+</body>
+</html>
